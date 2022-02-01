@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { TopNavBarComponent } from 'src/app/Header/topnavbar.component';
 
 import { AppComponent } from './app.component';
+import { CareerCardComponent } from './CareerCard/careercard.component';
 import { BottomFooterComponent } from './Footer/bottom.footer.component';
 import { FooterComponent } from './Footer/footer.component';
 import { SMCardComponent } from './Spider-Man Card/smcard.component';
@@ -17,7 +18,8 @@ import { VideoComponent } from './YouTube Video/video.component';
     BottomFooterComponent,
     VideoComponent,
     SMCardComponent,
-    WolverineCardComponent
+    WolverineCardComponent,
+    CareerCardComponent
   ],
   imports: [
     BrowserModule
