@@ -1,0 +1,13 @@
+.cardwidth{
+    width:25rem;
+}
+.learnmore{
+    background-color:#48707a; 
+    border-radius:30px;
+}
+
+.header{
+    font-size: 25px;
+    color: #404040;
+    font-family: sans-serif;
+}

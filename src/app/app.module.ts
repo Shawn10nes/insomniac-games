@@ -5,6 +5,8 @@ import { TopNavBarComponent } from 'src/app/Header/topnavbar.component';
 import { AppComponent } from './app.component';
 import { BottomFooterComponent } from './Footer/bottom.footer.component';
 import { FooterComponent } from './Footer/footer.component';
+import { SMCardComponent } from './Spider-Man Card/smcard.component';
+import { WolverineCardComponent } from './Wolverine Card/wolverinecard.component';
 import { VideoComponent } from './YouTube Video/video.component';
 
 @NgModule({
@@ -13,7 +15,9 @@ import { VideoComponent } from './YouTube Video/video.component';
     TopNavBarComponent,
     FooterComponent,
     BottomFooterComponent,
-    VideoComponent
+    VideoComponent,
+    SMCardComponent,
+    WolverineCardComponent
   ],
   imports: [
     BrowserModule
