@@ -9,11 +9,5 @@ import { mock_game_list } from './Spider-Man Card/mock_game_list';
 })
 export class AppComponent {
   title = 'insomniac-games';
-  games: GameItemModel [] = [];
-
-  constructor(){
-    for(var game of mock_game_list){
-      this.games.push(game);
-    }
-  }
+  
 }

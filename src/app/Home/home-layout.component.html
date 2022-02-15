@@ -1,0 +1,16 @@
+<div class="container-fluid justify-content-center d-flex">
+    <div *ngFor="let game of games">
+        <ig-smcard class="my-2" 
+            img={{game.img}} 
+            game={{game.game}} 
+            description={{game.description}}>
+            Loading...
+        </ig-smcard>
+    </div>
+</div>
+
+<div class="justify-content-center d-flex">
+    <ig-careercard>Loading...</ig-careercard>
+    <ig-careercard>Loading...</ig-careercard>
+</div>
+
