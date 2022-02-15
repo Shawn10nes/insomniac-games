@@ -1,0 +1,9 @@
+2/15/2022 Release Notes
+-Implemented 6 total routes to different components within the webpage. Accessed from the NavBar.
+    -Home
+    -Games
+    -Careers
+    -News
+    -Community
+    -Support
+-Used boostrap to organize layout of components on the home page
