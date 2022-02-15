@@ -11,12 +11,12 @@ export const mock_game_list = [
 },
 {
     img: "/assets/RiftApart.jpg",
-    game: "Ratchet & Clank: Rift Apart",
+    game: "Ratchet & Clank: Rift Apart: The Game",
     description: "Out Now on PS5!"
 },
-// {
-//     img: "/assets/MilesMorales.jpg",
-//     game: "Marvel's Spider-Man: Miles Morales",
-//     description: "Out Now on PS4/PS5!"
-// }
+{
+    img: "/assets/MilesMorales.jpg",
+    game: "Marvel's Spider-Man: Miles Morales",
+    description: "Out Now on PS4/PS5!"
+}
 ];
