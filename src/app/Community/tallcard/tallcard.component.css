@@ -1,0 +1,30 @@
+.cardwidth{
+    width: 270px;
+}
+
+.text-col{
+    color: #48707a
+}
+
+.borders{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cardlink{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+}
+
+.card-img-top{
+    margin-top: 10px;
+}
+
+.text-align{
+    text-align: center;
+}

@@ -1,3 +1,16 @@
+2/22/2022 Release Notes
+-Implemented 6 new components including:
+    -New NavBar on Career Page 
+    -New Vertical Career Cards on Career Page
+        -Implemented Using ngFor Loop to make mulitple instaces
+    -Form to Contact Company on Career Page 
+    -New Horizontal Card Announcing Game on News Page
+    -New Square Card to Join Discord on Community Page
+    -New Vertical Card Advertising Recent Twitch Streams on Community Page
+-Used Bootstrap Grid to Organize Components on Screen
+
+
+
 2/15/2022 Release Notes
 -Implemented 6 total routes to different components within the webpage. Accessed from the NavBar.
     -Home

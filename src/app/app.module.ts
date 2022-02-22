@@ -16,6 +16,12 @@ import { CareersLayoutComponent } from './Careers/careers-layout.component';
 import { NewsLayoutComponent } from './News/news-layout.component';
 import { CommunityLayoutComponent } from './Community/community-layout.component';
 import { SupportLayoutComponent } from './Support/support-layout.component';
+import { CareernavbarComponent } from './Careers/careernavbar/careernavbar.component';
+import { CareerpagecardComponent } from './Careers/careerpagecard/careerpagecard.component';
+import { FormComponent } from './Careers/form/form.component';
+import { SquarecardComponent } from './Community/squarecard/squarecard.component';
+import { HorizontalcardComponent } from './News/horizontalcard/horizontalcard.component';
+import { TallcardComponent } from './Community/tallcard/tallcard.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +38,13 @@ import { SupportLayoutComponent } from './Support/support-layout.component';
     CareersLayoutComponent,
     NewsLayoutComponent,
     CommunityLayoutComponent,
-    SupportLayoutComponent
+    SupportLayoutComponent,
+    CareernavbarComponent,
+    CareerpagecardComponent,
+    FormComponent,
+    SquarecardComponent,
+    HorizontalcardComponent,
+    TallcardComponent
   ],
   imports: [
     BrowserModule,

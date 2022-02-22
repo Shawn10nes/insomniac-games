@@ -1,0 +1,16 @@
+.career-navbar{
+    background-color: #48707A; ; 
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #5598B2;
+    font-family: sans-serif; 
+    font-size: 13.6px;
+    padding-left: 50px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.ig-navbuttons:hover{
+    color: white!important;
+}
