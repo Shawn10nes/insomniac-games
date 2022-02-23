@@ -22,6 +22,8 @@ import { FormComponent } from './Careers/form/form.component';
 import { SquarecardComponent } from './Community/squarecard/squarecard.component';
 import { HorizontalcardComponent } from './News/horizontalcard/horizontalcard.component';
 import { TallcardComponent } from './Community/tallcard/tallcard.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -44,11 +46,13 @@ import { TallcardComponent } from './Community/tallcard/tallcard.component';
     FormComponent,
     SquarecardComponent,
     HorizontalcardComponent,
-    TallcardComponent
+    TallcardComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
