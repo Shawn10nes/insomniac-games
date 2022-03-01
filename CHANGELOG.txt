@@ -1,3 +1,13 @@
+3/1/2022 Release Notes
+-Set Up Back End on FireBase
+-Connected FrontEnd to Backend
+-Created Component to Display User Info At Website Top
+-Bonus:
+    -Implemented component titled "Youtube Video" that embeds a Youtube Video 
+     and displays it on the HomePage similar to original website.
+
+
+
 2/22/2022 Release Notes
 -Implemented 6 new components including:
     -New NavBar on Career Page 
@@ -12,7 +22,8 @@
 
 
 2/15/2022 Release Notes
--Implemented 6 total routes to different components within the webpage. Accessed from the NavBar.
+-Implemented 6 total routes to different components within the webpage. Accessed 
+ from the NavBar.
     -Home
     -Games
     -Careers
