@@ -1,3 +1,10 @@
+3/8/2022 Release Notes
+-Moved Content of Mock Data from Spider-Man Card/mock_game_list.ts to Firebase
+-Created service component that communicates with backend and obtains the data
+ for the 'Spider-Man Card' components.
+-Changed the Home Layout Component to use the service component to display the cards
+
+
 3/1/2022 Release Notes
 -Set Up Back End on FireBase
 -Connected FrontEnd to Backend
