@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "insomniac-games"
+  },
+  "targets": {
+    "insomniac-games": {
+      "hosting": {
+        "insomniac-games": [
+          "insomniac-games"
+        ]
+      }
+    }
+  }
+}
