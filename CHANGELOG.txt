@@ -1,3 +1,11 @@
+3/22/2022 Release Notes
+-Installed Angular Fire Library
+-Changed HttpClient dependencies to AngularFireDatabase dependencies
+-Reimplemented fetching of data to use angular fire dependencies
+-Deployed Web Application
+
+
+
 3/8/2022 Release Notes
 -Moved Content of Mock Data from Spider-Man Card/mock_game_list.ts to Firebase
 -Created service component that communicates with backend and obtains the data
