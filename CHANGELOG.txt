@@ -1,3 +1,12 @@
+3/29/2022 Release Notes
+-Added a new route /admin
+-Under admin, added a form component that allows for information on game card componenets
+-Binded fields from the form using ngModel
+-Added a method to the service component that sends the data to the backend
+-Used the method inside the form to send game card data to the backend
+
+
+
 3/22/2022 Release Notes
 -Installed Angular Fire Library
 -Changed HttpClient dependencies to AngularFireDatabase dependencies

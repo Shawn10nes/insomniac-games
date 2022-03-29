@@ -18,4 +18,8 @@ export class GamesService {
 
     }
 
+    addGame(game : GameItemModel){
+        this.db.list<GameItemModel>("games").push(game);
+    }
+
 }

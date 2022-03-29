@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addGame(postForm.value)">
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Game Name:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="game">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Description:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="description">
+                </div>
+
+                <button type="submit" class="btn btn-dark">Add Game</button>
+
+            </form>
+        </div>
+    </div>
+</div>

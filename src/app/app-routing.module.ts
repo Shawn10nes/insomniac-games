@@ -7,6 +7,7 @@ import { CareersLayoutComponent } from './Careers/careers-layout.component';
 import { NewsLayoutComponent } from './News/news-layout.component';
 import { CommunityLayoutComponent } from './Community/community-layout.component';
 import { SupportLayoutComponent } from './Support/support-layout.component';
+import { AddGameComponent } from './add-game/add-game.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -15,7 +16,8 @@ const routes:Routes = [
   {path: 'Careers', component: CareersLayoutComponent},
   {path: 'News', component: NewsLayoutComponent},
   {path: 'Community', component: CommunityLayoutComponent},
-  {path: 'Support', component: SupportLayoutComponent}
+  {path: 'Support', component: SupportLayoutComponent},
+  {path: 'admin', component: AddGameComponent}
 ];
 
 @NgModule({
