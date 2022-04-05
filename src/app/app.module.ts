@@ -31,6 +31,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddGameComponent } from './add-game/add-game.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { FormsModule } from '@angular/forms';
     HorizontalcardComponent,
     TallcardComponent,
     UserInfoComponent,
-    AddGameComponent
+    AddGameComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,
