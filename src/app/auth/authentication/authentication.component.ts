@@ -17,7 +17,6 @@ export class AuthenticationComponent implements OnInit {
   onSubmit(data:NgForm){
     console.log("Button clicked");
     console.log(data.value);
-    data.reset();
 
     this.auth.signup(data.value.email, data.value.password).subscribe(
       data => {
@@ -27,6 +26,8 @@ export class AuthenticationComponent implements OnInit {
         console.log(error);
       }
     )
+
+    data.reset();
   }
 
 }
