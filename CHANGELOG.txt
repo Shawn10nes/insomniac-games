@@ -1,3 +1,14 @@
+4/12/20022 Release Notes
+-Added a new route /auth
+-Enabled Firebase authentication
+-Created an authentication component
+-Created an authentication service
+-Connected the authentication service with the component to allow the user 
+ to login and sign up.
+-Displays an error message to the console if the user is unable to sign up or login
+
+
+
 3/29/2022 Release Notes
 -Added a new route /admin
 -Under admin, added a form component that allows for information on game card componenets

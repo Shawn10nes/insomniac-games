@@ -19,9 +19,9 @@
                         required password minlength="8">
                 </div>
 
-                <button class="btn" type="submit" [disabled]="!authForm.valid">Login</button>
+                <button class="btn" type="submit" [disabled]="!authForm.valid" (click)="buttonClicked='Login'">Login</button>
 
-                <button class="btn" type="submit" [disabled]="!authForm.valid">Sign Up</button>
+                <button class="btn" type="submit" [disabled]="!authForm.valid" (click)="buttonClicked='SignUp'">Sign Up</button>
 
             </form>
         </div>
